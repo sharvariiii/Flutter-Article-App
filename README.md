@@ -32,6 +32,9 @@ This implementation uses Flutter’s built-in StatefulWidget and setState() for 
 - Global Access: There's no global state sharing, so communication between multiple widgets/pages isn’t possible without lifting the state up or using other state managers like Provider or Riverpod.
 - UI Behavior: The debounced input delay (300ms) might feel slightly laggy for fast typists.
 
+## Download APK
+APK : https://drive.google.com/file/d/1A9hB1tkKJIdeLVqIXRv7ION2N37mU11g/view?usp=drive_link
+
 ## Screenshots
 
 ### **1. Loader, Home Page, Added to Favorites**
