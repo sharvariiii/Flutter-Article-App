@@ -17,11 +17,17 @@ flutter pub get
 flutter run
 ## Tech Stack
 - Flutter SDK: 3.24.5
-- State Management: [Provider/Riverpod/etc.]
+- State Management: Provider
 - HTTP Client: [http/dio]
-- Persistence: [shared_preferences/hive]
-## State Management Explanation [Write 2-3 sentences about your choice and data flow] 
+- Persistence: shared_preferences
+## State Management Explanation
+- State Management:StatefulWidget (setState)
+This implementation uses Flutter’s built-in StatefulWidget and setState() for state management. UI updates (like showing/hiding the clear icon or handling text input) are triggered by calling setState(), which rebuilds the widget tree locally. Data flows from the input field to the parent widget through the onChanged callback.
 
-## Known Issues / Limitations [List anything incomplete or improvable] 
+## Known Issues / Limitations
+-Scalability: Using setState() is simple but becomes harder to maintain as the app grows in complexity.
+- Global Access: There's no global state sharing, so communication between multiple widgets/pages isn’t possible without lifting the state up or using other state managers like Provider or Riverpod.
+- UI Behavior: The debounced input delay (300ms) might feel slightly laggy for fast typists.
 
-## Screenshots (Optional) [Add if applicable]
+## Screenshots
+
