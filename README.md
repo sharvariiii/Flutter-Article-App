@@ -20,3 +20,8 @@ flutter run
 - State Management: [Provider/Riverpod/etc.]
 - HTTP Client: [http/dio]
 - Persistence: [shared_preferences/hive]
+## State Management Explanation [Write 2-3 sentences about your choice and data flow] 
+
+## Known Issues / Limitations [List anything incomplete or improvable] 
+
+## Screenshots (Optional) [Add if applicable]
